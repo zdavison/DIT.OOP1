@@ -26,7 +26,6 @@ Hints
 - The 'random' function in objc is `arc4random() % n` where `n` is the maximum. (eg `arc4random % 5` will be between 0 and 5
 - You will need to make use of an appropriate **collection class** to represent the deck.
 - You will need to make use of an appropriate **collection class** to represent a players hand.
-- You can use `anyObject` to return a card from your deck. This is not truly random, but we will fix this later.
 - You could use a `method` that returns a `BOOL` to figure out if a user has gone bust.
 - You could use a `method` that returns a `BOOL` to figure out if a user has won the game.
 - You could use a `method` to `draw` a card to a `player`s hand.
