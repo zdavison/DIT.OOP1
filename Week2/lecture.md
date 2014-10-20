@@ -218,3 +218,12 @@ eg: `git commit -m "My Commit Message"`
 eg: `git push origin master`
 
 `push` 'pushes' your code to the server so other people can see it.
+
+### Adding a repo, staging code, committing, and pushing
+
+```
+git remote add origin http://github.com/mygithub
+git add .
+git commit -m "My Commit Message"
+git push origin master
+```
