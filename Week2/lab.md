@@ -12,8 +12,7 @@ Goals
 --------------------
 Your code should provide the following features:
 - A representation of a 52 card deck (no jokers).
-- A way to `draw` a card from the deck (This should remove it from the deck also).
-- A way to `shuffle` the deck.
+- A way to `draw` a random card from the deck (This should remove it from the deck also).
 - A representation of a player (Only two are required, the dealer and the player, but there is no reason your game should not support more players if necessary).
 - A way to store a users `hand` (eg, what cards you currently have in your hand).
 - A way to calculate if a user has gone bust or won the game.
