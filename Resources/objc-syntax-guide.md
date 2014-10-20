@@ -1,3 +1,5 @@
+```objective-c
+
 // Single-line comments start with //
 
 /*
@@ -724,3 +726,6 @@ __strong NSString *strongString; // Default. Variable is retained in memory unti
 __weak NSSet *weakSet; // Weak reference to existing object. When existing object is released, weakSet is set to nil
 __unsafe_unretained NSArray *unsafeArray; // Like __weak, but unsafeArray not set to nil when existing object is released
 
+```
+
+Source: http://learnxinyminutes.com/docs/objective-c/
