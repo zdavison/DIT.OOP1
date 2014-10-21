@@ -13,8 +13,7 @@ Goals
 Your code should provide the following features:
 - A representation of a 52 card deck (no jokers).
 - A way to `draw` a random card from the deck (This should remove it from the deck also).
-- A representation of a player (Only two are required, the dealer and the player, but there is no reason your game should not support more players if necessary).
-- A way to store a users `hand` (eg, what cards you currently have in your hand).
+- A way to store a players `hand` (eg, what cards you currently have in your hand).
 - A way to calculate if a user has gone bust or won the game.
 
 Required Understanding
@@ -29,7 +28,6 @@ Hints
 - You could use a `method` that returns a `BOOL` to figure out if a user has gone bust.
 - You could use a `method` that returns a `BOOL` to figure out if a user has won the game.
 - You could use a `method` to `draw` a card to a `player`s hand.
-- You could use a `class` to represent a `player`.
 - Think about how you would generate the deck of 52 from an array of 4 suits and an array of 13 cards.
 
 Bonus
