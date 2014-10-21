@@ -22,7 +22,7 @@ Collection Classes, Control Flow Statements, Instance Methods, Classes.
 
 Hints
 --------------------
-- The 'random' function in objc is `arc4random() % n` where `n` is the maximum. (eg `arc4random % 5` will be between 0 and 5
+- The 'random' function in objc is `arc4random_uniform(n)` where `n` is the maximum. (eg `arc4random_uniform(5)` will be between 0 and 5
 - You will need to make use of an appropriate **collection class** to represent the deck.
 - You will need to make use of an appropriate **collection class** to represent a players hand.
 - You could use a `method` that returns a `BOOL` to figure out if a user has gone bust.
