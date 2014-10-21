@@ -29,6 +29,7 @@ Hints
 - You could use a `method` that returns a `BOOL` to figure out if a user has won the game.
 - You could use a `method` to `draw` a card to a `player`s hand.
 - Think about how you would generate the deck of 52 from an array of 4 suits and an array of 13 cards.
+- There are many ways to represent the score of each card. A simple way is to use an `NSDictionary`, but use whichever way you like.
 
 Bonus
 --------------------
