@@ -10,7 +10,7 @@ Goals
 --------------------
 Your code should provide the following features:
 
-- A scrollable list of every letter of the alphabet.
+- A scrollable list of every valid 3 letter Scrabble word.
 
 Required Understanding
 --------------------
@@ -19,7 +19,7 @@ UITableView, UITableViewDataSource, UITableViewCell.
 Hints
 --------------------
 - You will need to read the documentation for `UITableView`, `UITableViewDataSource`, and `UITableViewCell`.
-- You can store the alphabet in an `NSArray`.
+- You can store the words in an `NSArray`.
 - Your `ViewController` subclass should implement the `UITableViewDataSource` protocol.
 - Remember to set the `delegate` property of your `UITableView`.
 - You can use Interface Builder to create a `UITablView` instance. Remember to hook it up to an `IBOutlet`.
