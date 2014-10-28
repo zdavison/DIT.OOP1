@@ -50,9 +50,9 @@ A common delegate implementation looks like this:
 @end
 ```
 
-**NameSource.h**
+**ZDNameSource.h**
 ```obj-c
-@interface NameSource <NameDelegate>
+@interface ZDNameSource <NameDelegate>
 
 @end
 ```
@@ -70,20 +70,23 @@ A common delegate implementation looks like this:
 
 **ViewController.h**
 ```obj-c
-@property (nonatomic, weak) id<NameDelegate> nameDelegate;
+//...
 
+@property (nonatomic, weak) id<NameDelegate> nameDelegate;
 @property (nonatomic, weak) IBOutlet UILabel *label;
 
+//...
 ```
 
 **ViewController.m**
 ```obj-c
+//...
 - (void)viewDidLoad{
   [super viewDidLoad];
 
   _label.text = [_nameDelegate name];
 }
-
+//...
 ```
 
 Note in the above example, `nameDelegate` was never set by us. Usually, this would be set by something else, because `ViewController` does not care that `nameDelegate` is an instance of `ZDNameSource`, just that it implements the methods in the `NameDelegate` protocol.
@@ -123,7 +126,7 @@ As a quick aside, `UITableView` **re-uses** cells, to avoid creating 1000s of in
 ```obj-c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-  UITableViewCell *cell = [tableView dequeueResuableCellWithIdentifier:@"MyCellIdentifier"];
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellIdentifier"];
   cell.label.text = [NSString stringWithFormat:@"%d", indexPath.row];
   return cell;
 
