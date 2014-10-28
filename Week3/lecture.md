@@ -127,7 +127,7 @@ As a quick aside, `UITableView` **re-uses** cells, to avoid creating 1000s of in
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellIdentifier"];
-  cell.label.text = [NSString stringWithFormat:@"%d", indexPath.row];
+  cell.textLabel.text = [NSString stringWithFormat:@"%d", indexPath.row];
   return cell;
 
 }
