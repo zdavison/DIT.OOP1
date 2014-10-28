@@ -42,7 +42,7 @@ This **design pattern** is common in the Core Frameworks, especially UIKit, and 
 A common delegate implementation looks like this:
 
 **NameDelegate.h**
-```
+```obj-c
 @interface NameDelegate
 
 - (NSString*)name;
@@ -51,14 +51,14 @@ A common delegate implementation looks like this:
 ```
 
 **NameSource.h**
-```
+```obj-c
 @interface NameSource <NameDelegate>
 
 @end
 ```
 
 **ZDNameSource.m**
-```
+```obj-c
 @implementation ZDNameSource
 
 - (NSString*)name{
@@ -69,7 +69,7 @@ A common delegate implementation looks like this:
 ```
 
 **ViewController.h**
-```
+```obj-c
 @property (nonatomic, weak) id<NameDelegate> nameDelegate;
 
 @property (nonatomic, weak) IBOutlet UILabel *label;
@@ -77,8 +77,7 @@ A common delegate implementation looks like this:
 ```
 
 **ViewController.m**
-```
-
+```obj-c
 - (void)viewDidLoad{
   [super viewDidLoad];
 
