@@ -10,7 +10,7 @@ Goals
 --------------------
 Your code should provide the following features:
 
-- A scrollable list of every letter of the alphabet.
+- A scrollable list of every valid 3 letter Scrabble word.
 
 Required Understanding
 --------------------
