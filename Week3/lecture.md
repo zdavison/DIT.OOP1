@@ -43,7 +43,7 @@ A common delegate implementation looks like this:
 
 **NameDelegate.h**
 ```obj-c
-@interface NameDelegate
+@protocol NameDelegate
 
 - (NSString*)name;
 
