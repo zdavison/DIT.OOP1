@@ -4,7 +4,7 @@ OOP1.3 Lab
 Overview
 --------------------
 
-The goal of this lab is to use the `delegate` pattern to implement a table showing all valid three letter Scrabble words, which you can find [here](http://www.scrabblefinder.com/3-letter-words/)
+The goal of this lab is to use the `delegate` pattern to implement a table showing all valid three letter Scrabble words, which you can find [here](https://raw.githubusercontent.com/zdavison/DIT.OOP1/master/Week3/words.txt)
 
 Goals
 --------------------
