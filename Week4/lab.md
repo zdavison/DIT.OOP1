@@ -5,7 +5,7 @@ Overview
 --------------------
 
 The goal of this lab is to use `blocks` to load some data from the web and display it onscreen.
-I have provided a [zip file here]() that will provide you the necessary networking library `AFNetworking` we will use to get started.
+I have provided a [zip file here](https://github.com/zdavison/DIT.OOP1/raw/master/Week4/AFNetworking.zip) that will provide you the necessary networking library `AFNetworking` we will use to get started.
 
 Goals
 --------------------
