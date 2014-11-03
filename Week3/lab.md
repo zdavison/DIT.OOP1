@@ -22,7 +22,8 @@ Hints
 - You can store the words in an `NSArray`.
 - Your `ViewController` subclass should implement the `UITableViewDataSource` protocol.
 - Remember to set the `delegate` property of your `UITableView`.
-- You can use Interface Builder to create a `UITablView` instance. Remember to hook it up to an `IBOutlet`.
+- You can use Interface Builder to create a `UITableView` instance. Remember to hook it up to an `IBOutlet`.
+- You need to **register** a cell identifier using [`registerClass:forCellReuseIdentifier:`](https://developer.apple.com/Library/ios/documentation/UIKit/Reference/UITableView_Class/index.html#//apple_ref/occ/instm/UITableView/registerClass:forCellReuseIdentifier:)
 
 Bonus
 --------------------
