@@ -22,8 +22,8 @@ Hints
 --------------------
 - You will need to read the documentation for `AFNetworking`, found [here](https://github.com/AFNetworking/AFNetworking).
 - The method you are looking for is `GET:parameters:success:failure:` on the `AFHTTPRequestOperationManager` class. There is example code in the documentation.
-- You will need to `#import <AFNetworking/AFNetworking.h>` to use it.
-- The `responseObject` you receive will be an `NSDictionary` instance containing a key "ip". Set this to the contents of your UILabel.
+- You will need to `#import "AFNetworking.h"` to use it.
+- The `responseObject` you receive will be an `NSDictionary` instance containing a key "ip". Set this to the contents of your UILabel. To make your `responseObject` an instance of NSDictionary, you can **cast** it by doing the following: `NSDictionary *dictionary = (NSDictionary*)responseObject;`
 
 Bonus
 --------------------
