@@ -25,6 +25,20 @@
   [self setupDeck];
   [self setupHand];
   
+  ///
+  
+  NSNumber *myNumber = @42;
+  
+  void (^myBlock)() = ^{
+    NSLog(@"Hello %@", myNumber);
+  };
+  
+  myNumber = @24;
+  
+  myBlock();
+  
+  //
+  
   NSLog(@"%@", _deck);
   
   BJCard *drawnCard = [self drawCard];
