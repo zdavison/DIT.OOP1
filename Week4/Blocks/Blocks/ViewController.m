@@ -17,12 +17,16 @@
 
 - (IBAction)buttonPressed:(id)sender{
   AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-  [manager GET:@"http://ip.jsontest.com/" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-    NSDictionary *dictionary = (NSDictionary*)responseObject;
-    _label.text = dictionary[@"ip"];
-  } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-    
-  }];
+  
+  [manager GET:@"http://ip.jsontest.com/"
+    parameters:nil
+       success:^(AFHTTPRequestOperation *operation, id responseObject){
+         NSDictionary *dictionary = (NSDictionary*)responseObject;
+         _label.text = dictionary[@"ip"];
+       }
+       failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+         
+       }];
 }
 
 @end
