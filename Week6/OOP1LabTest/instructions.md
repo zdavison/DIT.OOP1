@@ -24,7 +24,7 @@ Make all the tests pass. Each unit test is worth **equal marks**.
 
 You will need to create classes and write methods to make these unit tests pass. The methods must be named as described in the **unit test**.
 
-Initially, the unit tests will **not compile** because they depend on classes you must create.
+Initially, the unit tests will **not compile** because they depend on classes you must create. Follow the errors XCode gives you to fix the problems and they will lead you on the right track.
 
 You must submit your solution to GitHub and email me the link to `zac@getdrop.com`. If you cannot do this, you may email your solution to me in a zip file, but a penalty of **10%** will be deducted from your mark.
 
