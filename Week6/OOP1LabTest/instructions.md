@@ -12,6 +12,8 @@ Instructions
 
 `clone` this repository to your machine.
 
+Open the `OOP1LabTest.xcworkspace` file in XCode.
+
 There are a set of **unit tests** in the file `OOP1LabTestTests/Tests.m`. Instructions for each test are written in plain english inside each `it` block.
 
 You can run the tests by pressing `Cmd + U` on your keyboard, or selecting `Product > Test`. You can see the results of the tests i the 4th and 5th menu in the navigation sidebar in XCode (eg: the far left). `Green == passed. Red == failed.`
