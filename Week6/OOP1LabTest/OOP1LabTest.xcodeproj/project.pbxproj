@@ -12,13 +12,9 @@
 		870135881A19107E00EFEA8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870135871A19107E00EFEA8E /* Images.xcassets */; };
 		8701358B1A19107E00EFEA8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870135891A19107E00EFEA8E /* LaunchScreen.xib */; };
 		870135A11A1910EB00EFEA8E /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870135A01A1910EB00EFEA8E /* Tests.m */; };
-		870135A51A19166200EFEA8E /* ControlFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 870135A41A19166200EFEA8E /* ControlFlow.m */; };
-		870135A81A19166B00EFEA8E /* DataStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = 870135A71A19166B00EFEA8E /* DataStructures.m */; };
 		8730940C1A1BBA4C0002009D /* Pods-OOP1LabTestTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8730940A1A1BBA4C0002009D /* Pods-OOP1LabTestTests.debug.xcconfig */; };
 		8730940D1A1BBA4C0002009D /* Pods-OOP1LabTestTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8730940B1A1BBA4C0002009D /* Pods-OOP1LabTestTests.release.xcconfig */; };
 		87DAD8031A1BAA31000BFA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DAD8021A1BAA31000BFA72 /* Main.storyboard */; };
-		87FEE4431A1BADEB00072A8C /* Protocols.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FEE4421A1BADEB00072A8C /* Protocols.m */; };
-		87FEE4491A1BB18C00072A8C /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FEE4481A1BB18C00072A8C /* Blocks.m */; };
 		E3CE834D887BE59334E6E798 /* libPods-OOP1LabTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8A163646975A11CAE0929 /* libPods-OOP1LabTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -44,19 +40,11 @@
 		870135901A19107E00EFEA8E /* OOP1LabTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOP1LabTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		870135951A19107E00EFEA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		870135A01A1910EB00EFEA8E /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		870135A31A19166200EFEA8E /* ControlFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlFlow.h; sourceTree = "<group>"; };
-		870135A41A19166200EFEA8E /* ControlFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlFlow.m; sourceTree = "<group>"; };
-		870135A61A19166B00EFEA8E /* DataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
-		870135A71A19166B00EFEA8E /* DataStructures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructures.m; sourceTree = "<group>"; };
 		8730940A1A1BBA4C0002009D /* Pods-OOP1LabTestTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-OOP1LabTestTests.debug.xcconfig"; path = "Target Support Files/Pods-OOP1LabTestTests/Pods-OOP1LabTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8730940B1A1BBA4C0002009D /* Pods-OOP1LabTestTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-OOP1LabTestTests.release.xcconfig"; path = "Target Support Files/Pods-OOP1LabTestTests/Pods-OOP1LabTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		87DAD8021A1BAA31000BFA72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		87FEE4401A1BADB700072A8C /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
-		87FEE4411A1BADEB00072A8C /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
-		87FEE4421A1BADEB00072A8C /* Protocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Protocols.m; sourceTree = "<group>"; };
 		87FEE4461A1BAE5900072A8C /* EmptyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyProtocol.h; sourceTree = "<group>"; };
-		87FEE4471A1BB18C00072A8C /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
-		87FEE4481A1BB18C00072A8C /* Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks.m; sourceTree = "<group>"; };
 		FAA8A163646975A11CAE0929 /* libPods-OOP1LabTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOP1LabTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,7 +101,6 @@
 			children = (
 				87FEE4451A1BAE4900072A8C /* Classes */,
 				87FEE4441A1BAE3800072A8C /* Protocols */,
-				870135A21A19163800EFEA8E /* Solution */,
 				8701357E1A19107E00EFEA8E /* AppDelegate.h */,
 				8701357F1A19107E00EFEA8E /* AppDelegate.m */,
 				870135871A19107E00EFEA8E /* Images.xcassets */,
@@ -148,21 +135,6 @@
 				870135951A19107E00EFEA8E /* Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		870135A21A19163800EFEA8E /* Solution */ = {
-			isa = PBXGroup;
-			children = (
-				870135A31A19166200EFEA8E /* ControlFlow.h */,
-				870135A41A19166200EFEA8E /* ControlFlow.m */,
-				870135A61A19166B00EFEA8E /* DataStructures.h */,
-				870135A71A19166B00EFEA8E /* DataStructures.m */,
-				87FEE4411A1BADEB00072A8C /* Protocols.h */,
-				87FEE4421A1BADEB00072A8C /* Protocols.m */,
-				87FEE4471A1BB18C00072A8C /* Blocks.h */,
-				87FEE4481A1BB18C00072A8C /* Blocks.m */,
-			);
-			path = Solution;
 			sourceTree = "<group>";
 		};
 		87FEE4441A1BAE3800072A8C /* Protocols */ = {
@@ -327,12 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FEE4431A1BADEB00072A8C /* Protocols.m in Sources */,
 				870135801A19107E00EFEA8E /* AppDelegate.m in Sources */,
-				870135A81A19166B00EFEA8E /* DataStructures.m in Sources */,
-				87FEE4491A1BB18C00072A8C /* Blocks.m in Sources */,
 				8701357D1A19107E00EFEA8E /* main.m in Sources */,
-				870135A51A19166200EFEA8E /* ControlFlow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
