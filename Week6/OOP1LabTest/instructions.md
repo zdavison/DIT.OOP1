@@ -22,7 +22,7 @@ Make all the tests pass. Each unit test is worth **equal marks**.
 - The remaining **20%** is awarded for code cleanliness and best practice.
 - Attempt marks will be awarded for code you write that does not make a test pass, but is on the *right track*.
 
-You will need to create classes and write methods to make these unit tests pass. The methods must be named as described in the **unit test**.
+You will need to create classes and write methods to make these unit tests pass. The methods must be named as described in the **unit test**. Be sure to note the method **types** (eg: class or instance).
 
 Initially, the unit tests will **not compile** because they depend on classes you must create.
 
