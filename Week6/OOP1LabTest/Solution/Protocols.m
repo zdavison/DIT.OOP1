@@ -26,9 +26,13 @@
 
 @end
 
+#pragma mark EmptyProtocol
+
 @implementation EmptyProtocolImpl
 
 @end
+
+#pragma mark TestProtocol
 
 @implementation TestProtocolImpl
 
@@ -37,6 +41,8 @@
 }
 
 @end
+
+#pragma mark TableViewDataSource
 
 @implementation TableViewDataSource
 

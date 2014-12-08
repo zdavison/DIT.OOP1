@@ -8,6 +8,15 @@
 
 #import "Blocks.h"
 
+typedef void (^BlockType)(void);
+
+@interface Blocks()
+
+@property (nonatomic, assign) NSInteger myInteger;
+@property (nonatomic, strong) BlockType myBlock;
+
+@end
+
 @implementation Blocks
 
 + (void)invokeBlock:(void (^)(void))blockName{

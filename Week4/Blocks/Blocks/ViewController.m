@@ -16,16 +16,17 @@
 @implementation ViewController
 
 - (IBAction)buttonPressed:(id)sender{
+  
   AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
   
   [manager GET:@"http://ip.jsontest.com/"
     parameters:nil
        success:^(AFHTTPRequestOperation *operation, id responseObject){
          NSDictionary *dictionary = (NSDictionary*)responseObject;
-         _label.text = dictionary[@"ip"];
+         _label.text = dictionary[@"ip"];         
        }
        failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-         
+         _label.text = error.localizedDescription;
        }];
 }
 

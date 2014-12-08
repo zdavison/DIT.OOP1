@@ -19,13 +19,19 @@
 
 @end
 
+#pragma mark EmptyProtocol
+
 @interface EmptyProtocolImpl : NSObject <EmptyProtocol>
 
 @end
 
+#pragma mark TestProtocol
+
 @interface TestProtocolImpl : NSObject <TestProtocol>
 
 @end
+
+#pragma mark TableViewDataSource
 
 @interface TableViewDataSource : NSObject <UITableViewDataSource>
 
