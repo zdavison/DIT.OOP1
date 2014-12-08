@@ -27,7 +27,8 @@ A normal `drawRect:` method looks like this:
     [super drawRect:rect];
     CGContextRef ctx = UIGraphicsGetCurrentContext();
 
-    rect.size.width *= self.progress; // self.progress is a scalar value between 0 and 1
+    CGRect progressRect = rect;
+    progressRect.size.width *= self.progress; // self.progress is a scalar value between 0 and 1
 
     CGContextAddRect(ctx, progressRect);
 
